@@ -5,25 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafaella Resende | Portfólio UGC</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Rafaella Resende</h1>
-        <p>UGC Creator</p>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Rafaella Resende</h1>
+            <p class="subtitle">UGC CREATOR</p>
+        </div>
     </header>
 
-    <section id="about">
-        </section>
-
-    <section id="portfolio">
-        <h2>Meus Trabalhos</h2>
-        <div class="video-grid">
-            <video controls src="assets/video1.mp4"></video>
+    <section class="about container">
+        <div class="profile-pic">
+            <img src="assets/perfil.jpg" alt="Rafaella Resende">
+        </div>
+        <div class="bio">
+            <h2>Sobre mim</h2>
+            <p>Criadora de conteúdo estratégica focada em converter audiência em clientes através de vídeos autênticos.</p>
         </div>
     </section>
 
-    <footer>
-        <a href="mailto:contato@email.com">Entre em contato</a>
+    <section class="portfolio container">
+        <h2>Meus Trabalhos</h2>
+        <div class="video-grid">
+            <div class="video-item"><video controls src="assets/video1.mp4"></video></div>
+            <div class="video-item"><video controls src="assets/video2.mp4"></video></div>
+            <div class="video-item"><video controls src="assets/video3.mp4"></video></div>
+        </div>
+    </section>
+
+    <footer class="contact">
+        <div class="container">
+            <h2>Vamos trabalhar juntos?</h2>
+            <a href="mailto:contato@email.com" class="btn">Enviar E-mail</a>
+            <div class="socials">
+                <p>@rafaellaresende</p>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
